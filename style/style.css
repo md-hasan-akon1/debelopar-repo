@@ -1,6 +1,208 @@
+* {
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
-        p{
-            color: blue;
-            background-color: brown;
-        }
-    
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url("../image/header_bg.png"), url("../image/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    margin-bottom: 70px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px 200px;
+}
+
+.mary {
+
+    font-weight: 800;
+    font-size: 40px;
+}
+
+span {
+    color: #FD6E0A;
+
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 51px;
+}
+
+.primary-button {
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* bennar */
+.bennar {
+    margin: 0px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.bennar1 {
+    width: 177px;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.bennar2 {
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.bennar3 {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.button3 {
+    color: #FD6E0A;
+    margin-left: 30px;
+    padding: 18px 24px;
+    border: 1px solid #FD6E0A;
+}
+
+.about {
+    background: #FFF8F3;
+    border-radius: 10px;
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 130px 155px;
+    text-align: center;
+}
+
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.section-discription {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin: 30px;
+}
+
+.info-containar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-info {
+    font-size: 20px;
+    font-weight: 800px;
+}
+
+.what {
+    margin-top: 60px;
+   margin-bottom: 80px;
+}
+.work{
+    margin:0px 300px;
+    margin-bottom: 50px;
+}
+.skill-title{
+    font-weight: 700;
+font-size: 20px;
+}
+.skill-containar{
+    display: flex;
+    margin:0 230px;
+    gap:24px
+}
+.skill{
+    background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding: 30px;
+}
+.skill-discription{
+    font-size: 16px;
+}
+.skill-title{
+   margin-top: 30px;
+   margin-bottom: 20px;
+}
+.resume{
+    display: flex;
+    margin: 0 200px;
+    gap:20px
+}
+.resume-title{
+    margin-bottom: 30px;
+}
+.resume-body{
+    border-bottom:1px solid #D1D1D1;
+}
+.year{
+ margin: 10px 0;
+ font-weight: 600;
+font-size: 20px;
+color: #757575;
+}
+.pera{
+    margin-bottom: 30px;
+}
+.button4{
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 17px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 70px 700px 130px;
+    width: 200px;
+    height: 64px;
+}
+.footer{
+    display: flex;
+    background: #FFF8F3;
+
+}
+.footer-title{
+    margin-bottom: 25px;
+    font-weight: 700;
+font-size: 35px;
+}
+.button5{
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+ 
+}
+.footer1{
+    margin-left: 100px;
+} 
+.footer2{
+  margin-bottom: 100px;
+    margin-left: 500px;
+ }
