@@ -92,7 +92,7 @@ nav li {
     text-align: center;
 }
 
-.section-title{
+.section-title {
     text-align: center;
     font-weight: 700;
     font-size: 35px;
@@ -119,55 +119,67 @@ nav li {
 
 .what {
     margin-top: 60px;
-   margin-bottom: 80px;
+    margin-bottom: 80px;
 }
-.work{
-    margin:0px 300px;
+
+.work {
+    margin: 0px 300px;
     margin-bottom: 50px;
 }
-.skill-title{
+
+.skill-title {
     font-weight: 700;
-font-size: 20px;
+    font-size: 20px;
 }
-.skill-containar{
+
+.skill-containar {
     display: flex;
-    margin:0 230px;
-    gap:24px
+    margin: 0 230px;
+    gap: 24px
 }
-.skill{
+
+.skill {
     background: #FFFFFF;
-box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
-border-radius: 5px;
-padding: 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
 }
-.skill-discription{
+
+.skill-discription {
     font-size: 16px;
 }
-.skill-title{
-   margin-top: 30px;
-   margin-bottom: 20px;
+
+.skill-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
-.resume{
+
+.resume {
     display: flex;
     margin: 0 200px;
-    gap:20px
+    gap: 20px
 }
-.resume-title{
+
+.resume-title {
     margin-bottom: 30px;
 }
-.resume-body{
-    border-bottom:1px solid #D1D1D1;
+
+.resume-body {
+    border-bottom: 1px solid #D1D1D1;
 }
-.year{
- margin: 10px 0;
- font-weight: 600;
-font-size: 20px;
-color: #757575;
+
+.year {
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
 }
-.pera{
+
+.pera {
     margin-bottom: 30px;
 }
-.button4{
+
+.button4 {
     background-color: #FD6E0A;
     border: none;
     border-radius: 5px;
@@ -179,17 +191,20 @@ color: #757575;
     width: 200px;
     height: 64px;
 }
-.footer{
+
+.footer {
     display: flex;
     background: #FFF8F3;
 
 }
-.footer-title{
+
+.footer-title {
     margin-bottom: 25px;
     font-weight: 700;
-font-size: 35px;
+    font-size: 35px;
 }
-.button5{
+
+.button5 {
     background-color: #FD6E0A;
     border: none;
     border-radius: 5px;
@@ -197,12 +212,14 @@ font-size: 35px;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
- 
+
 }
-.footer1{
+
+.footer1 {
     margin-left: 100px;
-} 
-.footer2{
-  margin-bottom: 100px;
+}
+
+.footer2 {
+    margin-bottom: 100px;
     margin-left: 500px;
- }
+}
